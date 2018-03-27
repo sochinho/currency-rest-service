@@ -2,6 +2,7 @@ package com.pretius.currencyrestservice.service.fetcher;
 
 import com.pretius.currencyrestservice.service.fetcher.dto.RateTableDto;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -10,6 +11,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+@Primary
 @Component
 public class NbpCurrencyDataFetcherImpl implements CurrencyDataFetcher {
 

@@ -16,7 +16,7 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/currency")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
-public class CurrencyConverterController {
+public class CurrencyConversionController {
 
     private CurrencyConverterService currencyConverterService;
 
