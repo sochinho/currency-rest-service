@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 public interface CurrencyConverterService {
 
     /**
-     *
      * @param amount
      * @param sourceCurrency
      * @param destinationCurrency

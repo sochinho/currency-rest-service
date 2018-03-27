@@ -1,7 +1,7 @@
 package com.pretius.currencyrestservice.web;
 
-import com.pretius.currencyrestservice.dto.ConversionResultDto;
 import com.pretius.currencyrestservice.dto.ConversionQueryDto;
+import com.pretius.currencyrestservice.dto.ConversionResultDto;
 import com.pretius.currencyrestservice.service.CurrencyConverterService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
