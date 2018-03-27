@@ -6,7 +6,8 @@
     <groupId>com.pretius</groupId>
     <artifactId>currency-rest-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
+    <!--<packaging>war</packaging>-->
 
     <name>currency-rest-service</name>
     <description>Demo project for Spring Boot</description>

@@ -79,8 +79,6 @@ public class CurrencyConversionControllerTest {
     public void test_getCurrencyConversionValue_Then_CurrencyNotFound() throws Exception {
 
         BigDecimal amount = BigDecimal.valueOf(10);
-        BigDecimal sourceRate = BigDecimal.valueOf(4.22);
-        BigDecimal destRate = BigDecimal.valueOf(3.39);
 
         ConversionQueryDto conversionQueryDto = new ConversionQueryDto();
         conversionQueryDto.setAmount(amount);
