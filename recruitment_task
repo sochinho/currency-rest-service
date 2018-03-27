@@ -1,0 +1,25 @@
+ Opis i cel zadania
+Celem zadania jest stworzenie aplikacji web'owej w java, która będzie udostępniała usługę rest do przeliczania walut.
+Wymagania funkcjonalne:
+
+    Usługa rest będzie przyjmowała 3 parametry:
+        kwota
+        waluta kwoty
+        waluta kwoty docelowej
+    Usługa będzie zwracała przeliczoną kwotę w walucie docelowej.
+    Do ustalenia kursów walut aplikacja powinna automatycznie zaciągać dane z NBP według instrukcji: http://api.nbp.pl/
+    Dane kursów powinny być zaciągane maksymalnie raz dziennie (danych nie trzeba nigdzie zapisywać, w związku z tym po restarcie aplikacji mogą one być ściągnięte jeszcze raz)
+
+Wymagania techniczne
+
+    Można użyć dowolnych bibliotek i frameworków na licencjach otwartych (np. MIT, Apache, itp.).
+    Projekt powinien być budowany i uruchamiany przez wybrany system do budowania (np. maven, gradle, itp..).
+    Aplikacja powinna być możliwość do zainstalowania na wybranym serwerze aplikacyjnym /www
+    Do projektu powinna być dołączona instrukcja budowania i uruchamiania na wybranym serwerze aplikacyjnym / www
+
+Rozwiązanie
+Przesłane rozwiązanie powinno zawierać:
+
+    repozytorium kodu z rozwiązaniem (jako archiwum .zip)
+    dostarczone materiały, oprócz przesłanego kodu źródłowego powinny zawierać również informację jak skompilować / zbudować dostarczone źródła i sposób uruchomienia kodu
+
